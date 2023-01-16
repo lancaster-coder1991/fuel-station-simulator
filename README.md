@@ -4,11 +4,11 @@ This application simulates a fuel station filling up cars periodically.
 
 ## Installation
 
-Clone the repo and then run `npm i` tp install dependencies. These will include [ts-node](https://www.npmjs.com/package/ts-node), which is required to run the application from the command line.
+Clone the repo and then run `npm i` to install dependencies. These will include [ts-node](https://www.npmjs.com/package/ts-node), which is required to run the application from the command line.
 
 ## Running the application
 
-To run the application, simply run `ts-node src/index.ts`. A new fuel statio instance will be created and its `fillNewCar` method will be run every 1.5 - 2.2 seconds. Output in the console will confirm every time a successful transaction has taken place, or will output `No available pumps!` if a car tries to enter when all pumps are in use or blocking other available pumps.
+To run the application, simply run `ts-node src/index.ts` from the root of the project using a terminal. A new fuel station instance will be created and its `fillNewCar` method will be run every 1.5 - 2.2 seconds. Output in the console will confirm every time a successful transaction has taken place, or will output `No available pumps!` if a car tries to enter when all pumps are in use or blocking other available pumps.
 
 ## Current Features
 
